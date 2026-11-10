@@ -33,9 +33,8 @@ Client and partner knowledge was spread across a CRM, several SharePoint workboo
 
 | Company snapshot | Snapshot library |
 |---|---|
-| ![Company snapshot](images/snapshots.png) | ![Snapshot library](images/snapshots-grid.png) |
+| ![Company snapshot](images/snapshots.png) | ![Snapshot library](images/snapshots-grid.png) 
 
-![Opportunities and notes](images/notes.png)
 
 ---
 

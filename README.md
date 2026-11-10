@@ -120,3 +120,8 @@ sequenceDiagram
 - **Let the model ask, let code count.** Exact figures come from tools; the model only decides what to look up and how to explain it.
 - **Prefetch the obvious.** Running the lookups every question needs before the first model call removed several slow round trips.
 - **Keep the last good data.** A failed refresh should never replace working data with nothing.
+
+## Author
+
+**Adiba Khan** · Software Engineer: Backend Engineering, Data Engineering & AI Systems · [LinkedIn](https://www.linkedin.com/in/adiba-khan-20ba57230/)
+ 

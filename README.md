@@ -1,6 +1,6 @@
 # Conflux: Enterprise AI Intelligence System
 
-**Generative AI · Agentic AI**
+**GenAI · Agentic AI · RAG**
 
 A web platform that brings CRM opportunities, client notes, survey responses, meeting notes and agreement documents into one place, with an AI analyst on top that answers questions in plain English by calling live data tools instead of guessing.
 
@@ -24,7 +24,7 @@ Client and partner knowledge was spread across a CRM, several SharePoint workboo
 - **One hub for four CRM and SharePoint sources:** opportunities and their stages, client notes, survey responses, weekly meeting notes, a full company directory and member agreements.
 - **AI analyst chat** that answers questions by calling tools against live data, with grounding rules that keep answers to what the data says.
 - **Company snapshots** with profile, opportunities, key contacts, relationship owners and the latest news signal.
-- **Agreements library** that reads PDFs, Outlook emails, Word, PowerPoint and Excel files and makes them searchable by the AI.
+- **Agreements library** that extracts text from PDFs, Outlook emails, Word, PowerPoint and Excel files and serves it to the AI through RAG.
 - **Answers to documents:** any chat answer can be downloaded as a styled PDF or Word file.
 
 **Result:** client research that took about 60 minutes now takes seconds.
@@ -77,7 +77,7 @@ sequenceDiagram
     end
     S-->>U: answer streamed word by word
 ```
-
+- Retrieval-augmented generation (RAG). Relevant CRM records and agreement text are retrieved and placed into the prompt, so answers come from the firm’s own data.
 - **Tool calling for exact numbers.** Six tools cover opportunity statistics, company search across a 20,000+ company directory, contacts and relationship owners, a partner's relationships, interaction totals, and agreement search. Counts are computed in code, never estimated by the model.
 - **Grounding rules.** The model is instructed to answer only from the supplied context and tool results, and to cite where an answer came from.
 - **Prompt caching.** The large data context is cached, so follow-up questions are faster and cheaper.

@@ -1,4 +1,4 @@
-# Conflux: Enterprise AI Intelligence System
+# Conflux: Enterprise GenAI Intelligence Platform
 
 **GenAI · Agentic AI · RAG**
 

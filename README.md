@@ -111,7 +111,7 @@ sequenceDiagram
 |---|---|
 | Backend | Python, FastAPI, Pydantic |
 | Frontend | JavaScript single-page app (History API routing), installable as a PWA |
-| AI | Claude API (tool calling, streaming, prompt caching) |
+| AI | Claude API, RAG, tool calling, streaming, prompt caching |
 | Data sources | CRM GraphQL API, Microsoft Graph (SharePoint), news signal API |
 | Documents | pypdf, extract-msg, python-docx, reportlab |
 | Infrastructure | Oracle Cloud, Linux, systemd, Caddy |

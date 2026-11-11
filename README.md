@@ -1,4 +1,6 @@
-# Conflux: GenAI Intelligence Platform
+# Conflux: Enterprise AI Intelligence System
+
+**Generative AI · Agentic AI**
 
 A web platform that brings CRM opportunities, client notes, survey responses, meeting notes and agreement documents into one place, with an AI analyst on top that answers questions in plain English by calling live data tools instead of guessing.
 
